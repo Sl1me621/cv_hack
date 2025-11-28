@@ -1,0 +1,85 @@
+============================================================
+СРАВНЕНИЕ РАЗМЕТОК
+============================================================
+
+Оригинальный файл: main/check.txt
+Сгенерированный файл: generated_check.txt
+Дата сравнения: markup_comparison.txt
+
+ОБЩАЯ СТАТИСТИКА:
+  Всего кадров в оригинале: 1066
+  Всего кадров в генерации: 972
+  Общих кадров для сравнения: 972
+  Совпадений: 760
+  Несовпадений: 212
+  Точность: 78.19%
+
+РАСПРЕДЕЛЕНИЕ НАПРАВЛЕНИЙ (оригинал):
+  left: 678 (63.6%)
+  right: 229 (21.5%)
+  none: 159 (14.9%)
+
+РАСПРЕДЕЛЕНИЕ НАПРАВЛЕНИЙ (генерация):
+  left: 589 (60.6%)
+  right: 210 (21.6%)
+  none: 173 (17.8%)
+
+НЕСОВПАДЕНИЯ (первые 50):
+Кадр | Оригинал | Генерация
+-----------------------------------
+   85 | none     | left      
+   86 | none     | left      
+   87 | none     | left      
+   88 | none     | left      
+   90 | none     | right     
+   93 | none     | left      
+   94 | none     | left      
+  101 | none     | right     
+  102 | none     | right     
+  103 | none     | right     
+  104 | none     | right     
+  105 | none     | right     
+  106 | none     | right     
+  107 | none     | right     
+  108 | none     | right     
+  109 | none     | right     
+  110 | none     | right     
+  111 | none     | right     
+  112 | none     | right     
+  113 | none     | right     
+  114 | none     | right     
+  115 | none     | right     
+  116 | none     | right     
+  117 | none     | right     
+  118 | none     | right     
+  130 | none     | right     
+  131 | none     | right     
+  132 | none     | right     
+  133 | none     | right     
+  134 | none     | right     
+  135 | none     | right     
+  136 | none     | right     
+  137 | none     | right     
+  138 | none     | right     
+  139 | none     | right     
+  140 | none     | right     
+  141 | none     | right     
+  142 | none     | right     
+  143 | none     | right     
+  144 | none     | left      
+  145 | none     | left      
+  152 | none     | left      
+  153 | right    | left      
+  154 | right    | none      
+  155 | right    | none      
+  168 | none     | right     
+  169 | left     | right     
+  170 | left     | right     
+  171 | left     | right     
+  172 | left     | none      
+... и еще 162 несовпадений
+
+ТОЧНОСТЬ ПО НАПРАВЛЕНИЯМ:
+  left: 533/584 (91.3%)
+  right: 152/229 (66.4%)
+  none: 75/159 (47.2%)
